@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Large data files (download separately)
+Data/
+*.h5ad
+*.loom
+*.h5
+
+# Generated outputs (reproducible from notebooks)
+Results/
+Results old/
+results_figures/
+results_figures_zip.zip
+tsne_runs/
+output/
+deliverables/
+*.tsv
+tsne_*.csv
+
+# Archives and datasets (download separately)
+archive/
+coil-20-proc/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
